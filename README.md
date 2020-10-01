@@ -6,4 +6,4 @@ This is an implementation of the official Django tutorial with a couple of test 
     python manage.py syncdb --noinput
     coverage run manage.py test --settings mysite.test_settings  # to test polls app and produce coverage data
     coverage html -include=polls/* --omit=polls/tests/*          # visit html output at htmlcov/index.html
-    python manage.py runserver # (user: admin, passwd: admin)
+    python manage.py runserver # (user: admin, password: admin)
